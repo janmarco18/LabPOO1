@@ -1,7 +1,7 @@
 // Hora de inicio: 08:05am
+package www.soft.parc1.mx;
 public class TestSeries {
     public static void main(String[]args){
-        Package
         Serie s = new Serie();
         int m = s.genNumero(100);
         int n = s.genNumero(100);
