@@ -1,3 +1,4 @@
+package www.soft.parc1.mx;
 public class Serie {
 
     public int fibo;
