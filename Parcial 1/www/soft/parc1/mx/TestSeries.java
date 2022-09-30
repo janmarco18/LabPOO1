@@ -9,5 +9,6 @@ public class TestSeries {
         s.fibo(int)(Math.random()*n*10);
         System.out.println(n);
         System.out.println(m);
+        System.out.println();
     }
 }
