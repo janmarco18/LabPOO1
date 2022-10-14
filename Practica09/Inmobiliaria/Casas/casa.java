@@ -4,4 +4,4 @@ public class casa{
 		private String tipo;
 		private int hab;
 		private float costo;
-} 
+}
