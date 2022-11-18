@@ -28,7 +28,7 @@ public class PruebaColeccion{
 			return;
 		}
 
-/*		Personaje [] datos = {
+		Personaje [] datos = {
 			new Planta("Fabian",Tablero.genVida(),Escudo.MEDIO),
 			new Planta("Bianca",Tablero.genVida()),
 			new Planta("Fabian",Tablero.genVida()),
@@ -60,7 +60,7 @@ public class PruebaColeccion{
 		Collections.sort(arr, new BySize());
 		for (Personaje p:arr){
 		System.out.println(p);
-*/
+
 
 	public static void guardarObjetos(f,arbol); 
 	public void mostrarDirectorio(){
