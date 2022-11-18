@@ -16,11 +16,9 @@ public class PruebaColeccion{
 		private String fname "";
 		// Escribe el nombre de un archivo o un directorio
 		Scanner s = new Scanner(System.in);
-		// path + fname;
-		fname += s.nextLine();
 		String suma + path + fname;
-
 		File f = new File(path);
+		fname += s.nextLine();
 
 		if(f.exist())
 
@@ -62,11 +60,10 @@ public class PruebaColeccion{
 		for (Personaje p:arr){
 		System.out.println(p);
 */
-	}
 
 	public static void guardaObjetos(f,arbol); 
-		public void mostrarDirectorio(){
-			System.out.println();
+	public void mostrarDirectorio(){
+			System.out.println(path);
 
 	}
 }
