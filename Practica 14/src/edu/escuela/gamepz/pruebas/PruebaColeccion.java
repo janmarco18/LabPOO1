@@ -27,8 +27,6 @@ public class PruebaColeccion{
 		if(file.exist()){
 			System.out.println("Archivo o directorio si existe");
 			return; 
-			// System.exit(int);
-
 		}
 
 /*		Personaje [] datos = {
@@ -66,7 +64,9 @@ public class PruebaColeccion{
 */
 	}
 
-	public static
-	
+	public static void guardaObjetos(f,arbol); 
+		public void mostrarDirectorio(){
+			System.out.println();
+
 	}
 }
