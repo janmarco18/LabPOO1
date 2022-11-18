@@ -7,24 +7,25 @@ import java.util.TreeSet;
 import java.util.LinkedList;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.File;
 import java.util.Scanner;
+import java.io.File;
 
 public class PruebaColeccion{
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		String path = System.getProperty("user.home") + System
-		String fname "";
+		String path = System.getProperty("user.home") + System.getProperty("file.separator");
+		String = fname "" ;
+		fname += s.nextLine();
 		String suma + path + fname;
 		File f = new File(path);
-		fname += s.nextLine();
+
 
 		if(f.exist()){
 			System.out.println("Archivo o directorio si existe");
 			return; 
 
 		if(f.isDirectory()){
-			path ();
+			mostrarDirectorio(f);
 			return;
 		}
 
