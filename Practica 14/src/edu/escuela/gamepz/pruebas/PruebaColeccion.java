@@ -15,7 +15,7 @@ public class PruebaColeccion{
 		Scanner s = new Scanner(System.in);
 		String path = System.getProperty("user.home") + System.getProperty("file.separator");
 		String = fname "" ;
-		fname += s.nextLine();
+		fname = s.nextLine();
 		String suma + path + fname;
 		File f = new File(path);
 
@@ -23,6 +23,7 @@ public class PruebaColeccion{
 		if(f.exist()){
 			System.out.println("Archivo o directorio si existe");
 			return; 
+		}
 
 		if(f.isDirectory()){
 			mostrarDirectorio(f);
