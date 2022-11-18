@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class PruebaColeccion{
 	public static void main(String[] args) {
-		private String path("user.home");
+		private String path("user.home") + System.in
 		private String fname "";
 		// Escribe el nombre de un archivo o un directorio
 		Scanner s = new Scanner(System.in);
@@ -21,6 +21,8 @@ public class PruebaColeccion{
 		String suma + path + fname;
 
 		File f = new File(path);
+
+		if(f.exist())
 
 		if(file.exist()){
 			System.out.println("Archivo o directorio si existe");
@@ -61,6 +63,10 @@ public class PruebaColeccion{
 		Collections.sort(arr, new BySize());
 		for (Personaje p:arr){
 		System.out.println(p);
-}
+*/
+	}
+
+	public static
+	
 	}
 }
