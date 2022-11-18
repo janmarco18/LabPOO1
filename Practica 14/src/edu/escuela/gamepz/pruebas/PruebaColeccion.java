@@ -14,19 +14,20 @@ public class PruebaColeccion{
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		String path = System.getProperty("user.home") + System.getProperty("file.separator");
-		String = fname "" ;
-		fname = s.nextLine();
-		String suma + path + fname;
+		String suma = path + fname;
+		String fname = "" ;
+			fname = s.nextLine();
+		
 		File f = new File(path);
 
 
-		if(f.exist()){
+		if(f.exists()){
 			System.out.println("Archivo o directorio si existe");
 			return; 
 		}
 
 		if(f.isDirectory()){
-			mostrarDirectorio(f);
+			mostrarDirectorio();
 			return;
 		}
 
@@ -61,12 +62,14 @@ public class PruebaColeccion{
 		System.out.println(" - - - Orden Tamanio - - - ");
 		Collections.sort(arr, new BySize());
 		for (Personaje p:arr){
-		System.out.println(p);
+		System.out.println(p); }
+		
+		}
 
-
-	public static void guardarObjetos(f,arbol); 
-	public void mostrarDirectorio(){
-			System.out.println(path);
+	public static void guardarObjetos(File f, TreeSet <Personaje> arbol){
+	};
+	public static void mostrarDirectorio(File f){
+			f.getPath();
 
 	}
 }
