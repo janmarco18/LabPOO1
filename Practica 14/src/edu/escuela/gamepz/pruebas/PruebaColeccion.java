@@ -18,10 +18,14 @@ public class PruebaColeccion{
 		String suma + path + fname;
 		File f = new File(path);
 		fname += s.nextLine();
-		
+
 		if(f.exist()){
 			System.out.println("Archivo o directorio si existe");
 			return; 
+
+		if(f.isDirectory()){
+			path ();
+			return;
 		}
 
 /*		Personaje [] datos = {
