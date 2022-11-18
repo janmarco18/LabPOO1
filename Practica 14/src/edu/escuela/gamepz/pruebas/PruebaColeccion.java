@@ -14,9 +14,9 @@ public class PruebaColeccion{
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		String path = System.getProperty("user.home") + System.getProperty("file.separator");
-		String suma = path + fname;
 		String fname = "" ;
 			fname = s.nextLine();
+		String suma = path + fname;
 		
 		File f = new File(path);
 
