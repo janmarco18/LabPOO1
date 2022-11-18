@@ -11,10 +11,14 @@ import java.util.Scanner;
 public class PruebaColeccion{
 	public static void main(String[] args) {
 		private String path("user.home");
-		private String fname() 
+		private String fname "";
+		// Escribe el nombre de un archivo o un directorio
+		Scanner s = new Scanner(System.in);
+		// path + fname;
+		Sring path + fname + suma;
 
-		Scanner s = new Scanner();
-		path + fname;
+		if(file.exist)
+
 		Personaje [] datos = {
 			new Planta("Fabian",Tablero.genVida(),Escudo.MEDIO),
 			new Planta("Bianca",Tablero.genVida()),
