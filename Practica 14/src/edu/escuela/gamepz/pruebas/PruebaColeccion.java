@@ -7,8 +7,14 @@ import java.util.TreeSet;
 import java.util.LinkedList;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Scanner;
 public class PruebaColeccion{
 	public static void main(String[] args) {
+		private String path("user.home");
+		private String fname() 
+
+		Scanner s = new Scanner();
+		path + fname;
 		Personaje [] datos = {
 			new Planta("Fabian",Tablero.genVida(),Escudo.MEDIO),
 			new Planta("Bianca",Tablero.genVida()),
