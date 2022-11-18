@@ -17,7 +17,9 @@ public class PruebaColeccion{
 		// path + fname;
 		Sring path + fname + suma;
 
-		if(file.exist)
+		if(file.exist()){
+			System.out.println("Archivo o directorio si existe")
+		}
 
 		Personaje [] datos = {
 			new Planta("Fabian",Tablero.genVida(),Escudo.MEDIO),
