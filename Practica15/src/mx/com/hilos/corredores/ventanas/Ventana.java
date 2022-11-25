@@ -1,12 +1,10 @@
 // Inicio de practica 8:00am
 package mx.com.hilos.corredores.ventanas;
-
 // imports
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-
 // class
 public class Ventana extends JFrame{
 		private JLabel lblTitulo;
@@ -17,7 +15,6 @@ public class Ventana extends JFrame{
 		private JTextField txtElem1;
 		private JTextField txtElem2;
 		private JButton btnStart;
-
 		public Ventana(){
 		initComponents();
 	}
@@ -40,7 +37,6 @@ public class Ventana extends JFrame{
 				hElem2.setBorder(BorderFactory.createLineBorder(border));
 				hElem2.setPreferredSize(lblDim);
 				btnStart.setPreferredSize(lblDim);
-
 				btnStart.addActionListener(new ActionListener(){
 					public void actionPerformed(ActionEvent e){
 					setEnabled(false);
@@ -58,19 +54,6 @@ public class Ventana extends JFrame{
 					add(btnStart);
 					add(hElem1);
 					add(hElem2);
-					setVisible(true);
-
-	
+					setVisible(true);	
 	}
 }
-
-
-/*
-JTextField
-txt1.getText().len
-txt1.getText().charAt(N)
-text.txt1
-
-getText (obtener texto)
-setText (establecer un texto)
-*/
