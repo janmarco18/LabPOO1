@@ -40,7 +40,7 @@ public class Ventana extends JFrame{
 				btnStart.addActionListener(new ActionListener(){
 					public void actionPerformed(ActionEvent e){
 					setEnabled(false);
-					//RunHilos.iniciar();
+					RunHilos.iniciar();
 					}
 					});
 				setTitle("Practica 15");
