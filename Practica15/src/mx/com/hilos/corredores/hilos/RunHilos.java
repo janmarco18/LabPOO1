@@ -5,6 +5,10 @@ public class RunHilos extends Ventana{
 		private JLabel elem1;
 		private JLabel elem2;
 
+		public void iniciar(){
+			
+		}
+
 
 	}
 }

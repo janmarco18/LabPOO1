@@ -4,8 +4,8 @@ package mx.com.hilos.corredores.ventanas;
 // imports
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionListener.*;
-import java.awt.event.ActionEvent.*;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 // class
 public class Ventana extends JFrame{
@@ -47,18 +47,18 @@ public class Ventana extends JFrame{
 					//RunHilos.iniciar();
 					}
 					});
-					setTitle("Practica 15");
-					setLayout(new FlowLayout());
-					setSize(ancho,alto);
-						add(lblTitulo);
-						add(lblElem1);
-						add(txtElem1);
-						add(lblElem2);
-						add(txtElem2);
-						add(btnStart);
-						add(hElem1);
-						add(hElem2);
-						setVisible(true);
+				setTitle("Practica 15");
+				setLayout(new FlowLayout());
+				setSize(ancho,alto);
+					add(lblTitulo);
+					add(lblElem1);
+					add(txtElem1);
+					add(lblElem2);
+					add(txtElem2);
+					add(btnStart);
+					add(hElem1);
+					add(hElem2);
+					setVisible(true);
 
 	
 	}
