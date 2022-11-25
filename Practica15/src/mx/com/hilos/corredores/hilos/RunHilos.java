@@ -4,11 +4,11 @@ public class RunHilos extends Ventana{
 		private JTextField txt2;
 		private JLabel elem1;
 		private JLabel elem2;
-
+}
 		public void iniciar(){
+			char ch1;
+			char ch2;
+
 			
-		}
-
-
 	}
 }
