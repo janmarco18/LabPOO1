@@ -8,6 +8,7 @@ public class Ventana extends JFrame{
 
 		public Ventana();
 		initComponent();
+	}
 			int ancho = 550;
 			int alto = 250;
 			Dimension lblDim = new Dimension(ancho-15,alto/10);
@@ -27,7 +28,7 @@ public class Ventana extends JFrame{
 				hElem2.setPreferredSize(lblDim);
 				btnStart.setPreferredSize(lblDim);
 	}
-}
+
 
 /* public void 
 	setTitle("Practica 15");
