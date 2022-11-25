@@ -1,12 +1,24 @@
 // Inicio de practica 8:00am
 package mx.com.hilos.corredores.ventanas;
+
+// imports
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionListener.*;
+import java.awt.event.ActionEvent.*;
+
+// class
 public class Ventana extends JFrame{
-	public static void main(String[] args) {
-		private JLabel lblTitulo, lblElem1, lblElem2, hElem1, hElem2;
-		private JTextField txtElem1, txtElem2;
+		private JLabel lblTitulo;
+		private JLabel lblElem1;
+		private JLabel lblElem2;
+		private JLabel hElem1;
+		private JLabel hElem2;
+		private JTextField txtElem1;
+		private JTextField txtElem2;
 		private JButton btnStart;
 
-		public Ventana();
+		public Ventana(){
 		initComponents();
 	}
 		public void initComponents(){
@@ -29,22 +41,29 @@ public class Ventana extends JFrame{
 				hElem2.setPreferredSize(lblDim);
 				btnStart.setPreferredSize(lblDim);
 
+				btnStart.addActionListener(new ActionListener(){
+					public void actionPerformed(ActionEvent e){
+					setEnabled(false);
+					//RunHilos.iniciar();
+					}
+					});
+					setTitle("Practica 15");
+					setLayout(new FlowLayout());
+					setSize(ancho,alto);
+						add(lblTitulo);
+						add(lblElem1);
+						add(txtElem1);
+						add(lblElem2);
+						add(txtElem2);
+						add(btnStart);
+						add(hElem1);
+						add(hElem2);
+						setVisible(true);
 
+	
 	}
 }
 
-/* public void 
-	setTitle("Practica 15");
-	setLayout(new FlowLayout());
-	setSize(ancho,alto);
-		add(lblTitulo);
-		add(lblElem1);
-		add(txtElem1);
-		add(lblElem2);
-		add(txtElem2);
-		add(btnStart);
-		add(hElem1);
-		add(hElem2);
 
 /*
 JTextField
@@ -54,3 +73,4 @@ text.txt1
 
 getText (obtener texto)
 setText (establecer un texto)
+*/
