@@ -7,12 +7,11 @@ public class RunHilos extends Ventana{
 }
 		public void iniciar(){
 			char ch1;
+				ch1.getText(txt1).charAt(0);
 			char ch2;
-
-			ch1.getText(txt1).charAt(0);
-			ch2.getText(txt2).charAt(0);
-
-			if (tx.len()>0 && tx.charAt(0)='')
+				ch2.getText(txt2).charAt(0);
+				
+			/* if (tx.len()>0 && tx.charAt(0)='')
 				txt=ch
 				txt='E'
 	}
