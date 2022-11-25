@@ -28,3 +28,24 @@ public class Ventana extends JFrame{
 				btnStart.setPreferredSize(lblDim);
 	}
 }
+
+/* public void 
+	setTitle("Practica 15");
+	setLayout(new FlowLayout());
+	setSize(ancho,alto);
+		add(lblTitulo);
+		add(lblElem1);
+		add(txtElem1);
+		add(lblElem2);
+		add(txtElem2);
+		add(btnStart);
+		add(hElem1);
+		add(hElem2);
+
+JTextField
+txt1.getText().len
+txt1.getText().charAt(N)
+text.txt1
+
+getText (obtener texto)
+setText (establecer un texto)
