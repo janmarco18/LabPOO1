@@ -1,6 +1,6 @@
 public class Vehiculo {
-	private String marca();
-	private int modelo();
-	private float costo();
+	private String marca(Nissan);
+	private int modelo(Sentra);
+	private float costo(30,000.00);
 
 }
