@@ -1,3 +1,3 @@
-public class Acuatico{
+public class Acuatico extends Vehiculo{
 	boolean remos;
 }

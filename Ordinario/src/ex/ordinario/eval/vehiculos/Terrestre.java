@@ -1,3 +1,3 @@
-public class Terrestre{
+public class Terrestre extends Vehiculo{
 	int llantas;
 }

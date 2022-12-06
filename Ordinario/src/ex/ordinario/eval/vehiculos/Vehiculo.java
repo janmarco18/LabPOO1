@@ -1,6 +1,6 @@
 public class Vehiculo {
-	String marca;
-	int modelo;
-	float costo;
+	private String marca();
+	private int modelo();
+	private float costo();
 
 }
