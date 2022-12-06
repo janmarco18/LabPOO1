@@ -22,7 +22,7 @@ public class PruebaColeccion{
 
 
 		if(f.exists()){
-			System.out.println("Archivo o directorio si existe");
+			System.out.println("Archivo o directorio, si existe");
 			return; 
 		}
 

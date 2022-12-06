@@ -4,12 +4,9 @@ public class TestSeries {
     public static void main(String[]args){
         Serie s = new Serie();
     // genNumero()
-        int m = s.genNumero(10);
         int n = s.genNumero(10);
     // s.fibo()
-        s.fibo(int)(Math.random()*m*10);
-        s.fibo(int)(Math.random()*n*10);
+        pl (s.fibo(n));
         System.out.println(n);
-        System.out.println(m);
     }
 }
